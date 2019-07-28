@@ -22,5 +22,8 @@ module.exports = {
             console.log(error)
             return error;
         }
+    },
+    getProduct: function(){
+        
     }
 }
