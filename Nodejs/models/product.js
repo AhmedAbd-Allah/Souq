@@ -55,3 +55,4 @@ var products = new Schema({
 products.plugin(mongoose_paginate);
 // Register ...
 mongoose.model("products",products);
+module.exports = mongoose.model('products');
